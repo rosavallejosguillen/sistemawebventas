@@ -15,7 +15,7 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	      <div class="modal-header">
 	        <h5 class="modal-title" id="exampleModalLabel">C11ambiar Logo</h5>
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
+	          <span aria-hidden="true2">&times;</span>
 	        </button>
 	      </div>
 	      <div class="modal-body">

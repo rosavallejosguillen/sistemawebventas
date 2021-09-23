@@ -1,9 +1,9 @@
 <?php 
 include_once 'Conexion.php';
-class Venta1{
+class Venta{
 	var $objetos;
 	public function __construct(){
-		$db=new Conexion();
+		$db=new Conexion1();
 		$this->acceso=$db->pdo;
 	}
 	function Crear($nombre,$dni,$total,$fecha,$vendedor){

@@ -3,7 +3,7 @@ include_once 'Conexion.php';
 class VentaProducto{
 	var $objetos;
 	public function __construct(){
-		$db=new Conexion();
+		$db=new Conexion3();
 		$this->acceso=$db->pdo;
 	}	
 	function ver($id){

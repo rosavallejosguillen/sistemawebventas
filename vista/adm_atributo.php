@@ -3,7 +3,7 @@ session_start();
 if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	include_once 'layouts/header.php';
 ?>
-	  <title>Adm|Atributo</title>
+	  <title>Adm|Atributo1</title>
 	  <!-- Tell the browser to be responsive to screen width -->
 		<?php 
 			include_once 'layouts/nav.php';
@@ -13,7 +13,7 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	  <div class="modal-dialog">
 	    <div class="modal-content">
 	      <div class="modal-header">
-	        <h5 class="modal-title" id="exampleModalLabel">Cambiar Logo</h5>
+	        <h5 class="modal-title" id="exampleModalLabel">C11ambiar Logo</h5>
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 	          <span aria-hidden="true">&times;</span>
 	        </button>

@@ -1,6 +1,6 @@
 <?php 
 include_once 'Conexion.php';
-class Venta{
+class Venta1{
 	var $objetos;
 	public function __construct(){
 		$db=new Conexion();

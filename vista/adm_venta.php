@@ -39,7 +39,7 @@ if ($_SESSION['us_tipo']==3 || $_SESSION['us_tipo']==1){
 		      			<thead class="">
 		      				<tr>
 		      					<th>Cantidad</th>
-		      					<th>Precio</th>
+		      					<th>Precio1</th>
 		      					<th>Producto</th>
 		      					<th>Concentracion</th>
 		      					<th>Laboratorio</th>

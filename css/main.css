@@ -1,0 +1,120 @@
+.carro{
+	position: relative;
+}
+@media screen and (max-width: 900px) {
+	.carro{
+		display: block;
+		width: 260px !important;
+		height: auto;
+	}
+	.carro thead{
+		display: none;
+	}
+	.carro > *, .carro tr, .carro td{
+		display: block;
+	}
+	.carro tbody tr td{
+		padding-left: 35% !important;
+		margin-bottom: -15px;
+	}
+	.carro tbody tr td:last-child{
+		margin-bottom: 0;
+	}
+	.carro tbody tr td:before{
+		color: #999;
+		font-weight: unset;
+		position: absolute;
+		left: 10px;
+		/*top: 10px;*/
+	}
+	.carro tbody tr{
+		font-size: 14px;
+	}
+
+	.carro tbody tr td:nth-child(1):before{
+		content: "Codigo";
+		font-weight: bold;
+		color: #000;
+	}
+	.carro tbody tr td:nth-child(2):before{
+		content: "Nombre";
+		font-weight: bold;
+		color: #000;
+	}
+	.carro tbody tr td:nth-child(3):before{
+		content: "Concent";
+		font-weight: bold;
+		color: #000;
+	}
+	.carro tbody tr td:nth-child(4):before{
+		content: "Adicional";
+		font-weight: bold;
+		color: #000;
+	}
+	.carro tbody tr td:nth-child(5):before{
+		content: "Precio";
+		font-weight: bold;
+		color: #000;
+	}
+	.carro tbody tr td:nth-child(6):before{
+		content: "Eliminar";
+		font-weight: bold;
+		color: #000;
+	}
+}
+.imagen-carrito{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+.contador{
+	position: absolute;
+	top: 0px;
+	right: 3px;
+}
+[class*=sidebar-dark-] {
+    background: linear-gradient(180deg,#010101,#1BE4A4)
+}
+[class*=sidebar-dark] .brand-link {
+    border-bottom: 1px solid #66b3ff !important;    
+}
+/*.brand-link {   
+    padding: 1.8rem .5rem !important;    
+}*/
+.brand-link .brand-image{
+	margin-left: 0rem !important;
+	margin-top:-10px !important;
+	max-height:45px !important;
+}
+[class*=sidebar-dark-] .sidebar a {
+    color: var(--white) !important;
+}
+[class*=sidebar-dark] .brand-link {    
+    color: var(--green) !important;
+}
+.user-panel img {    
+    width: 2.7rem !important;
+}
+/*.navbar {    
+    height: 5.6rem;
+	linear-gradient(45deg, #23ca49,#7E1CDB)
+}*/
+.navbar-white {    
+    background:#010101 !important;
+}
+.d-block{
+	color: white !important;
+}
+.cerra_sesion{
+	color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+.user-panel .info {
+    display: inline-block !important;
+    padding: 9px 6px 6px 15px !important;
+}
+/*.text-select{
+	padding: .375rem 14.75rem !important;
+}*/

@@ -1,0 +1,11 @@
+required = validacion campos vacios
+maxLength="20" validar solo 20 espacios
+min="4" validar para un numero limite
+max="12" validar un numero maximo
+min="2016-05-20" fecha
+max="2016-05-25" fecha
+multiple para agregar varios archivos
+pattern="[a-z]+" para agregar solo letras
+pattern="[A-Za-z]+" para agregar solo letras
+pattern="[0-9]" para agregar solo NUMEROS
+

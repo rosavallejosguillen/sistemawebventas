@@ -24,7 +24,7 @@ if ($_SESSION['us_tipo']==3 || $_SESSION['us_tipo']==1){
 		      			<span id="fecha"></span>
 		      		</div>
 		      		<div class="form-group">
-		      			<label for="cliente">Cliente: </label>
+		      			<label for="cliente1">Cliente: </label>
 		      			<span id="cliente"></span>
 		      		</div>
 		      		<div class="form-group">

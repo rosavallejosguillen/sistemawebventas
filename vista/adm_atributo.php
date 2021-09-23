@@ -16,11 +16,13 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	        <h5 class="modal-title" id="exampleModalLabel">Cambiar Logo</h5>
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 	          <span aria-hidden="true">&times;</span>
+			  <span aria-hidden="true">&times;</span>
+			  <span aria-hidden="true">&times;</span>
 	        </button>
 	      </div>
 	      <div class="modal-body">
 	        <div class="text-center">
-	        	<img id="logoactual" src="../img/avatar.png" class="profile-user-img img-fluid img-circle">
+	        	<img id="logoactual" src="../img/avatar2.png" class="profile-user-img img-fluid img-circle">
 	        </div>
 	        <div class="text-center">
 	        	<b id="nombre_logo">

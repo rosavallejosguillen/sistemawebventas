@@ -3,7 +3,7 @@ session_start();
 if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	include_once 'layouts/header.php';
 ?>
-	  <title>Adm|Atributo1</title>
+	  <title>Adm|Atributo2</title>
 	  <!-- Tell the browser to be responsive to screen width -->
 		<?php 
 			include_once 'layouts/nav.php';

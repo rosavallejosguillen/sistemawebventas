@@ -4,7 +4,7 @@ if ($_SESSION['us_tipo']==1){
 	include_once 'layouts/header.php';
 ?>
 
-	  <title>Adm|Gestion Lote</title>
+	  <title>Adm|Gestion Lote1</title>
 	  <!-- Tell the browser to be responsive to screen width -->
 		<?php 
 			include_once 'layouts/nav.php';

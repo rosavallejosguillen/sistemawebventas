@@ -9,7 +9,7 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 			include_once 'layouts/nav.php';
 		 ?>	
 <!-- ModalCrearLote -->
-<div class="modal fade" id="crearlote" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<sdiv class="modal fade" id="crearlote" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
 	    <div class="modal-content">
 	      	<div class="card card-success">

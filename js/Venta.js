@@ -10,7 +10,7 @@ $(document).ready(function() {
         	"data":{funcion:funcion}
         },
         "columns": [
-            { "data": "id_venta" },
+            { "data": "id_venta1" },
             { "data": "fecha" },
             { "data": "cliente" },
             { "data": "dni" },

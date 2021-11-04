@@ -42,7 +42,7 @@ $(document).ready(function() {
 	});
 	function buscar_prov(consultas){
 		funcion='buscar';
-		$.post('../controlador/ProveedorController.php',{consulta,funcion},(response)=> {
+		$.post('../controlado/ProveedorController.php',{consulta,funcion},(response)=> {
 			const proveedores=JSON.parse(response);
 			let template='';
 			proveedor.forEach(proveedor =>{

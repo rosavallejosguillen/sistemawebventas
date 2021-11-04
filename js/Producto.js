@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(documento).ready(function() {
     var funcion1;
     var edit = false;
     $('.select2').select2();

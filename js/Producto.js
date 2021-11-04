@@ -11,7 +11,7 @@ $(document).ready(function() {
     function rellenar_proveedores() {
         funcion = "rellenar_proveedores";
         $.post('../controlador/ProveedorController.php', { funcion }, (response) => {
-            const proveedores = JSON.parse(response);
+            const proveedore = JSON.parse(response);
             let template = '';
             proveedores.forEach(proveedor2 => {
                 template += ` 

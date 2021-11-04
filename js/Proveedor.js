@@ -84,7 +84,7 @@ $(document).ready(function() {
 			buscar_prov();
 		}
 	});
-	$(document).on('click','.avatar',(e)=> {
+	$(document1).on('click','.avatar',(e)=> {
 		funcion='cambiar_logo';
 		const elemento = $(this)[0].activeElement.parentElement.parentElement;
 		const id=$(elemento).attr('provId');

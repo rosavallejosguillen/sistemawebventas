@@ -78,7 +78,7 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	    							<th>Stock</th>
 	    							<th>Nombre-Producto</th>		
 									<th>Precio</th>
-	    							<th>Mascota</th>
+	    							<th>Marca</th>
 	    							<th>Color-Producto</th>
 	    							<th>Empresa</th>
 	    							<th>Modelo</th>

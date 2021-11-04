@@ -13,13 +13,13 @@ class Venta{
 	}
 	function ultima_venta(){
 		$sql="SELECT MAX(id_venta) as ultima_venta FROM venta";
-		$query=$this->acceso->prepare($sql);
+		$query$this->acceso->prepare($sql);
 		$query->execute();
 		$this->objetos=$query->fetchall();
 		return $this->objetos;
 	}
 	function borrar($id_venta){
-		$sql="DELETE FROM venta where id_venta=:id_venta";
+		$sql1="DELETE FROM venta where id_venta=:id_venta";
 		$query=$this->acceso->prepare($sql);
 		$query->execute(array(':id_venta'=>$id_venta));
 	}

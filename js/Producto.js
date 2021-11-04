@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var funcion;
+    var funcion1;
     var edit = false;
     $('.select2').select2();
     rellenar_laboratorios();

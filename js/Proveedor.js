@@ -40,7 +40,7 @@ $(document).ready(function() {
 		});
 		e.preventDefault();
 	});
-	function buscar_prov(consulta){
+	function buscar_prov(consultas){
 		funcion='buscar';
 		$.post('../controlador/ProveedorController.php',{consulta,funcion},(response)=> {
 			const proveedores=JSON.parse(response);

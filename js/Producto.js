@@ -13,7 +13,7 @@ $(document).ready(function() {
         $.post('../controlador/ProveedorController.php', { funcion }, (response) => {
             const proveedores = JSON.parse(response);
             let template = '';
-            proveedores.forEach(proveedor => {
+            proveedores.forEach(proveedor2 => {
                 template += ` 
 					<option value="${proveedor.id}">${proveedor.nombre}</option>
 				`;

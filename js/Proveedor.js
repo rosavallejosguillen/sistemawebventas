@@ -45,7 +45,7 @@ $(document).ready(function() {
 		$.post('../controlador/ProveedorController.php',{consulta,funcion},(response)=> {
 			const proveedores=JSON.parse(response);
 			let template='';
-			proveedores.forEach(proveedor =>{
+			proveedor.forEach(proveedor =>{
 				template+=` 
 				<tr provId="${proveedor.id}" provNombre="${proveedor.nombre}" provTelefono="${proveedor.telefono}" provCorreo="${proveedor.correo}" provDireccion="${proveedor.direccion}" provAvatar="${proveedor.avatar}">
 						<td>${proveedor.id}</td>
@@ -84,7 +84,7 @@ $(document).ready(function() {
 			buscar_prov();
 		}
 	});
-	$(document1).on('click','.avatar',(e)=> {
+	$(document).on('click','.avatar',(e)=> {
 		funcion='cambiar_logo';
 		const elemento = $(this)[0].activeElement.parentElement.parentElement;
 		const id=$(elemento).attr('provId');
